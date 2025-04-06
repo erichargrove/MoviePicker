@@ -3,24 +3,33 @@ import time
 import os
 
 movies = [
-    "Jurassic Park", "Fellowship of the Ring (Extended)",
-    "Cats (the original)", "Pride and Prejudice", "Parasite", "Snowpiercer",
-    "A Silent Voice", "Your Name", "Josee, The Tiger, and The Fish",
-    "The Last Jedi", "Rogue One"
+    "Jurassic Park",
+    "Fellowship of the Ring (Extended)",
+    "Cats (the original)",
+    "Pride and Prejudice",
+    "Parasite",
+    "Snowpiercer",
+    "A Silent Voice",
+    "Your Name",
+    "Josee, The Tiger, and The Fish",
+    "The Last Jedi",
+    "Rogue One",
+    "Dungeons & Dragon: Honor Among Thieves",
+    "Samurai Cop",
 ]
 
 
-def pickMovie(movies, delay=0.15):
+def pickMovie(movies, runs=40, delay=0.1):
     clear = lambda: os.system('cls' if os.name == 'nt' else 'clear')
 
     print("Picking a random movie!")
     time.sleep(1)
 
-    for i in range(20):
+    for i in range(runs):
         clear()
         temp = random.choice(movies)
         print(temp)
-        adjustedDelay = delay * (1 + i / (20 / 2))
+        adjustedDelay = delay * (1 + i / (runs / 2))
         time.sleep(adjustedDelay)
 
     clear()
