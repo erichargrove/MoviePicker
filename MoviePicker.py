@@ -9,7 +9,7 @@ movies = [
 ]
 
 
-def pickMovie(movies, delay=20):
+def pickMovie(movies, delay=0.15):
     clear = lambda: os.system('cls' if os.name == 'nt' else 'clear')
 
     print("Picking a random movie!")
@@ -22,13 +22,11 @@ def pickMovie(movies, delay=20):
         adjustedDelay = delay * (1 + i / (20 / 2))
         time.sleep(adjustedDelay)
 
-    finalPick = random.choice(movies)
     clear()
+    finalPick = random.choice(movies)
 
-    print(finalPick)
-    return (finalPick)
+    print("Selected movie: " + finalPick)
+    return finalPick
 
 
-randomMovie = pickMovie(movies)
-
-print(randomMovie)
+pickMovie(movies)
