@@ -3,19 +3,13 @@ import time
 import os
 
 movies = [
-    "Jurassic Park",
-    "Fellowship of the Ring (Extended)",
-    "Cats (the original)",
-    "Pride and Prejudice",
-    "Parasite",
-    "Snowpiercer",
-    "A Silent Voice",
-    "Your Name",
-    "Josee, The Tiger, and The Fish",
-    "The Last Jedi",
-    "Rogue One",
-    "Dungeons & Dragon: Honor Among Thieves",
-    "Samurai Cop",
+    "Jurassic Park", "Fellowship of the Ring (Extended)",
+    "Cats (the original)", "Pride and Prejudice", "Parasite", "Snowpiercer",
+    "A Silent Voice", "Your Name", "Josee, The Tiger, and The Fish",
+    "The Last Jedi", "Rogue One", "Dungeons & Dragon: Honor Among Thieves",
+    "Samurai Cop", "Godzilla Minus One", "Shin Godzilla",
+    "Godzilla: King of the Monsters", "Godzilla vs. Kong",
+    "Godzilla x Kong: The New Empire"
 ]
 
 
