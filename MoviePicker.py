@@ -9,7 +9,8 @@ movies = [
     "The Last Jedi", "Rogue One", "Dungeons & Dragon: Honor Among Thieves",
     "Samurai Cop", "Godzilla Minus One", "Shin Godzilla",
     "Godzilla: King of the Monsters", "Godzilla vs. Kong",
-    "Godzilla x Kong: The New Empire", "Dune"
+    "Godzilla x Kong: The New Empire", "Dune",
+    "Seven Brides for Seven Brothers", "Yentl"
 ]
 
 
