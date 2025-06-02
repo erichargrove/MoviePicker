@@ -11,7 +11,7 @@ movies = [
     "Godzilla: King of the Monsters", "Godzilla vs. Kong",
     "Godzilla x Kong: The New Empire", "Dune",
     "Seven Brides for Seven Brothers", "Yentl", "Wicked", "The Swan Princess",
-    "Elder Millenial", "Confirmed Kills"
+    "Elder Millenial", "Confirmed Kills", "True Lies"
 ]
 
 
@@ -35,4 +35,5 @@ def pickMovie(movies, runs=40, delay=0.1):
     return finalPick
 
 
-pickMovie(movies)
+if __name__ == "__main__":
+    pickMovie(movies)
