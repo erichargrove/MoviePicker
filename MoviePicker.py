@@ -82,7 +82,7 @@ class MoviePickerGUI:
 
 def main():
     root = tk.Tk()
-    app = MoviePickerGUI(root)
+    MoviePickerGUI(root)
     root.mainloop()
 
 if __name__ == "__main__":
