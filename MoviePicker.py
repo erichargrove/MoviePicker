@@ -12,7 +12,7 @@ movies = [
     "Godzilla: King of the Monsters", "Godzilla vs. Kong",
     "Godzilla x Kong: The New Empire", "Dune",
     "Seven Brides for Seven Brothers", "Yentl", "Wicked", "The Swan Princess",
-    "Elder Millenial", "Confirmed Kills", "Warrior"
+    "Confirmed Kills", "Warrior"
 ]
 
 
