@@ -6,10 +6,9 @@ import threading
 
 movies = [
     "Jurassic Park", "Cats (the original)", "Pride and Prejudice", "Parasite",
-    "Snowpiercer", "A Silent Voice", "Your Name",
-    "Josee, The Tiger, and The Fish", "The Last Jedi", "Rogue One",
-    "Samurai Cop", "Godzilla Minus One", "Shin Godzilla",
-    "Godzilla: King of the Monsters", "Godzilla vs. Kong",
+    "Snowpiercer", "Your Name", "Josee, The Tiger, and The Fish",
+    "The Last Jedi", "Rogue One", "Samurai Cop", "Godzilla Minus One",
+    "Shin Godzilla", "Godzilla: King of the Monsters", "Godzilla vs. Kong",
     "Godzilla x Kong: The New Empire", "Dune",
     "Seven Brides for Seven Brothers", "Yentl", "Wicked", "The Swan Princess",
     "Confirmed Kills", "Warrior"
