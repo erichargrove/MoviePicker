@@ -13,7 +13,6 @@ COLORS = {
 }
 
 movies = [
-    "Jurassic Park",
     "Cats (the original)",
     "Pride and Prejudice",
     "Parasite",
@@ -21,8 +20,8 @@ movies = [
     "Your Name",
     "Josee, The Tiger, and The Fish",
     "The Last Jedi",
-    "Rogue One",
     "Samurai Cop",
+    "Creed",
     "Godzilla Minus One",
     "Shin Godzilla",
     "Godzilla: King of the Monsters",
@@ -111,13 +110,15 @@ class MoviePickerGUI:
 
         for i in range(runs):
             temp = random.choice(movies)
-            self.root.after(0, lambda t=temp: self.movie_label.configure(text=t))
+            self.root.after(0,
+                            lambda t=temp: self.movie_label.configure(text=t))
             adjusted_delay = delay * (1 + i / (runs / 2))
             time.sleep(adjusted_delay)
 
         final_pick = random.choice(movies)
         self.root.after(0, lambda: self.movie_label.configure(text=final_pick))
-        self.root.after(0, lambda: self.status_label.configure(text="Movie selected!"))
+        self.root.after(
+            0, lambda: self.status_label.configure(text="Movie selected!"))
         self.root.after(0, lambda: self.pick_button.configure(state="normal"))
 
 
