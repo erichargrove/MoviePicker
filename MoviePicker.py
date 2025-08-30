@@ -13,32 +13,16 @@ COLORS = {
 }
 
 movies = [
-    "Cats (the original)",
-    "Pride and Prejudice",
-    "Parasite",
-    "Snowpiercer",
-    "Primitive War",
-    "Your Name",
-    "Josee, The Tiger, and The Fish",
-    "The Last Jedi",
-    "Samurai Cop",
-    "Creed",
-    "Godzilla Minus One",
-    "Shin Godzilla",
-    "Godzilla: King of the Monsters",
-    "Godzilla vs. Kong",
-    "Godzilla x Kong: The New Empire",
-    "Dune",
-    "Seven Brides for Seven Brothers",
-    "Yentl",
-    "Wicked",
-    "The Swan Princess",
-    "Confirmed Kills",
-    "Warrior",
-    "Power Rangers",
-    "Sinners",
-    "Salt, Fat, Acid, Heat",
-    "Beckham",
+    "Cats (the original)", "Pride and Prejudice", "Parasite", "Snowpiercer",
+    "Primitive War", "Your Name", "Josee, The Tiger, and The Fish",
+    "The Last Jedi", "Samurai Cop", "Creed", "Godzilla Minus One",
+    "Shin Godzilla", "Godzilla: King of the Monsters", "Godzilla vs. Kong",
+    "Godzilla x Kong: The New Empire", "Dune",
+    "Seven Brides for Seven Brothers", "Wicked", "The Swan Princess",
+    "Warrior", "Power Rangers", "Sinners", "Salt, Fat, Acid, Heat", "Beckham",
+    "Big Brother", "The Wild Robot", "Dark Side of the Ring", "Mr. McMahon",
+    "McMillions", "Until Dawn", "Glass Onion", "Cheer", "Death of a Unicorn",
+    "The Birdcage", "Challengers"
 ]
 
 
