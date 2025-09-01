@@ -20,9 +20,10 @@ movies = [
     "Godzilla x Kong: The New Empire", "Dune",
     "Seven Brides for Seven Brothers", "Wicked", "The Swan Princess",
     "Warrior", "Power Rangers", "Sinners", "Salt, Fat, Acid, Heat", "Beckham",
-    "Big Brother", "The Wild Robot", "Dark Side of the Ring", "Mr. McMahon",
-    "McMillions", "Until Dawn", "Glass Onion", "Cheer", "Death of a Unicorn",
-    "The Birdcage", "Challengers"
+    "Big Brother", "The Wild Robot", "Dark Side of the Ring",
+    "McMillions", "Glass Onion", "Cheer", "Death of a Unicorn",
+    "The Birdcage", "Challengers", "Rings of Power", "The Lost Temple", "Bullet Train",
+    "The Iron Claw", "The Boy and the Heron", "Edge of Tomorrow",
 ]
 
 
