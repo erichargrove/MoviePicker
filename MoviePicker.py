@@ -23,7 +23,7 @@ movies = [
     "Glass Onion", "Cheer", "Death of a Unicorn", "The Birdcage",
     "Challengers", "Rings of Power", "The Lost City", "Bullet Train",
     "The Iron Claw", "The Boy and the Heron", "Edge of Tomorrow",
-    "Galaxy Quest", "Cats (the new one)", "Legion", "Ready or Not", "Abigail",
+    "Galaxy Quest", "Cats (the new one)", "Legion", "Abigail",
     "Pokemon The Movie 2000", "Pokemon 3"
 ]
 
