@@ -14,13 +14,13 @@ COLORS = {
 
 movies = [
     "Cats (the original)", "Parasite", "Snowpiercer", "Your Name",
-    "Josee, The Tiger, and The Fish", "The Last Jedi", "Samurai Cop", "Creed",
+    "Josee, The Tiger, and The Fish", "The Last Jedi", "Samurai Cop",
     "Godzilla Minus One", "Shin Godzilla", "Godzilla: King of the Monsters",
     "Godzilla vs. Kong", "Godzilla x Kong: The New Empire", "Dune",
     "Seven Brides for Seven Brothers", "Wicked", "The Swan Princess",
     "Warrior", "Power Rangers", "Sinners", "Salt, Fat, Acid, Heat", "Beckham",
     "Big Brother", "The Wild Robot", "Dark Side of the Ring", "McMillions",
-    "Glass Onion", "Cheer", "Death of a Unicorn", "The Birdcage",
+    "Glass Onion", "Death of a Unicorn", "The Birdcage",
     "Challengers", "Rings of Power", "The Lost City", "Bullet Train",
     "The Iron Claw", "The Boy and the Heron", "Edge of Tomorrow",
     "Galaxy Quest", "Cats (the new one)", "Legion", "Abigail",
