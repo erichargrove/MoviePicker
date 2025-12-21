@@ -29,7 +29,7 @@ movies = [
     "Seven Brides for Seven Brothers",
     "Wicked",
     "The Swan Princess",
-    "Warrior",
+    "42",
     "Power Rangers",
     "Sinners",
     "Salt, Fat, Acid, Heat",
