@@ -30,8 +30,10 @@ movies = [
     "Seven Brides for Seven Brothers",
     "Wicked",
     "The Swan Princess",
+    "42",
     "Warrior",
     "Power Rangers",
+    "Sinners",
     "Salt, Fat, Acid, Heat",
     "Beckham",
     "Big Brother",
@@ -55,11 +57,14 @@ movies = [
     "Abigail",
     "Pokemon The Movie 2000",
     "Pokemon 3",
+    "The Smashing Machine",
+    "Mickey 17",
+    "Fantastic Four (the new one)",
+    "Superman (the new good one)",
 ]
 
 
 class MoviePickerGUI:
-
     def __init__(self, root):
         self.root = root
         self.root.title("Movie Picker")
