@@ -33,7 +33,6 @@ movies = [
     "42",
     "Warrior",
     "Power Rangers",
-    "Sinners",
     "Salt, Fat, Acid, Heat",
     "Beckham",
     "Big Brother",
