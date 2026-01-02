@@ -13,18 +13,48 @@ COLORS = {
 }
 
 movies = [
-    "Cats (the original)", "Parasite", "Snowpiercer", "Your Name",
-    "Josee, The Tiger, and The Fish", "The Last Jedi", "Samurai Cop", "Creed",
-    "Godzilla Minus One", "Shin Godzilla", "Godzilla: King of the Monsters",
-    "Godzilla vs. Kong", "Godzilla x Kong: The New Empire", "Dune",
-    "Seven Brides for Seven Brothers", "Wicked", "The Swan Princess",
-    "Warrior", "Power Rangers", "Sinners", "Salt, Fat, Acid, Heat", "Beckham",
-    "Big Brother", "The Wild Robot", "Dark Side of the Ring", "McMillions",
-    "Glass Onion", "Cheer", "Death of a Unicorn", "The Birdcage",
-    "Challengers", "Rings of Power", "The Lost City", "Bullet Train",
-    "The Iron Claw", "The Boy and the Heron", "Edge of Tomorrow",
-    "Galaxy Quest", "Cats (the new one)", "Legion", "Abigail",
-    "Pokemon The Movie 2000", "Pokemon 3"
+    "Cats (the original)",
+    "Parasite",
+    "Snowpiercer",
+    "Your Name",
+    "Josee, The Tiger, and The Fish",
+    "The Last Jedi",
+    "Samurai Cop",
+    "Creed 2",
+    "Godzilla Minus One",
+    "Shin Godzilla",
+    "Godzilla: King of the Monsters",
+    "Godzilla vs. Kong",
+    "Godzilla x Kong: The New Empire",
+    "Dune",
+    "Seven Brides for Seven Brothers",
+    "Wicked",
+    "The Swan Princess",
+    "Warrior",
+    "Power Rangers",
+    "Salt, Fat, Acid, Heat",
+    "Beckham",
+    "Big Brother",
+    "The Wild Robot",
+    "Dark Side of the Ring",
+    "McMillions",
+    "Glass Onion",
+    "Cheer",
+    "Death of a Unicorn",
+    "The Birdcage",
+    "Challengers",
+    "Rings of Power",
+    "The Lost City",
+    "Bullet Train",
+    "The Iron Claw",
+    "The Boy and the Heron",
+    "Edge of Tomorrow",
+    "Galaxy Quest",
+    "Cats (the new one)",
+    "Legion",
+    "Abigail",
+    "Pokemon The Movie 2000",
+    "Pokemon 3",
 ]
 
 
@@ -98,15 +128,13 @@ class MoviePickerGUI:
 
         for i in range(runs):
             temp = random.choice(movies)
-            self.root.after(0,
-                            lambda t=temp: self.movie_label.configure(text=t))
+            self.root.after(0, lambda t=temp: self.movie_label.configure(text=t))
             adjusted_delay = delay * (1 + i / (runs / 2))
             time.sleep(adjusted_delay)
 
         final_pick = random.choice(movies)
         self.root.after(0, lambda: self.movie_label.configure(text=final_pick))
-        self.root.after(
-            0, lambda: self.status_label.configure(text="Movie selected!"))
+        self.root.after(0, lambda: self.status_label.configure(text="Movie selected!"))
         self.root.after(0, lambda: self.pick_button.configure(state="normal"))
 
 
